@@ -11,7 +11,7 @@ void draw(){
 }
 void scale(int x, int y){
   noFill();
-  rect(x+50,y,150,200);
+  rect(x+50,y-200,150,200);
   if(Math.random()<.99){
     text("Mr. Chan is Awesome!" ,x+60, y-50);
 }
